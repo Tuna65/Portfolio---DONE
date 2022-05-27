@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.0-web/css/all.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <input type="checkbox" id="header__bar" class="header__bar-checked" hidden> 
+            <label for="header__bar" class="header__option ">
+                <i class="fa-solid fa-bars "></i>    
+            </label>
+            <div class="header__img">
+                <img class="header__img-avt" src="./assets/img/avatar_g.jpg" alt="">
+            </div>
+            <label for="header__bar" class="overlay"></label>
+            <div class="sidebar__hidden">
+                <header class="sidebar__header">
+                    PORTFILIO
+                </header>
+                <ul class="sidebar__optional">
+                    <li class="sidebar__optional-select sidebar__optional-selected">
+                        <i class="fa-brands sidebar__optional-icon fa-windows"></i>
+                        PORTFILE
+                    </li>
+                    <li class="sidebar__optional-select">
+                        <i class="fa-solid sidebar__optional-icon fa-user"></i>
+                        ABOUT
+                    </li>
+                    <li class="sidebar__optional-select">
+                        <i class="fa-solid sidebar__optional-icon fa-envelope"></i>
+                        CONTACT
+                    </li>
+                </ul>
+                <div class="sidebar__icon">
+                    <i class="fa-brands sidebar__icons fa-facebook"></i>
+                    <i class="fa-brands sidebar__icons fa-instagram"></i>
+                    <i class="fa-brands sidebar__icons fa-snapchat-square"></i>
+                    <i class="fa-brands sidebar__icons fa-pinterest-p"></i>
+                    <i class="fa-brands sidebar__icons fa-twitter"></i>
+                    <i class="fa-brands sidebar__icons fa-linkedin-in"></i>
+                </div>
+                <label for="header__bar" class="header__option ">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+            </div>
+        </div>
+        <div class="container">
+            
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="sidebar__img">
+                    <img class="sidebar__img-avt" src="./assets/img/avatar_g2.jpg" alt="">
+                </div>
+                <header class="sidebar__header">
+                    PORTFILIO
+                </header>
+                <P>Template by W3.CSS</P>
+                <ul class="sidebar__optionals">
+                    <li class="sidebar__optionals-select actived">
+                        <i class="fa-brands sidebar__optional-icon fa-windows"></i>
+                        PORTFILE
+                    </li>
+                    <li class="sidebar__optionals-select">
+                        <i class="fa-solid sidebar__optional-icon fa-user"></i>
+                        ABOUT
+                    </li>
+                    <li class="sidebar__optionals-select">
+                        <i class="fa-solid sidebar__optional-icon fa-envelope"></i>
+                        CONTACT
+                    </li>
+                </ul>
+                <div class="sidebar__icon">
+                    <i class="fa-brands sidebar__icons fa-facebook"></i>
+                    <i class="fa-brands sidebar__icons fa-instagram"></i>
+                    <i class="fa-brands sidebar__icons fa-snapchat-square"></i>
+                    <i class="fa-brands sidebar__icons fa-pinterest-p"></i>
+                    <i class="fa-brands sidebar__icons fa-twitter"></i>
+                    <i class="fa-brands sidebar__icons fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="all__content">
+                <div class="content">
+                    <!-- header content -->
+                    <div class="content__header">
+                        <h1>My Portfolio</h1>
+                        <div class="content__nav">
+                            <span class="content__nav-label">
+                                Filter
+                            </span>
+                            <nav class="content__nav-option content__nav-option-selected">   
+                                ALL
+                            </nav>
+                            <nav class="content__nav-option">
+                                <i class="fa-solid content__nav-option-icon fa-gem"></i>
+                                Design
+                            </nav>
+                            <nav class="content__nav-option content__nav-option-hide">
+                                <i class="fa-regular content__nav-option-icon fa-image"></i>
+                                Photos
+                            </nav>
+                            <nav class="content__nav-option content__nav-option-hide">
+                                <i class="fa-solid content__nav-option-icon fa-map-pin"></i>
+                                Art
+                            </nav>
+                        </div>
+                    </div>
+    
+                    <!-- card -->
+                    <div class="content__titles grid">
+                        <div class="row">
+                            <div class="content__titles-card col l-4 m-4 c-12">
+                                <div class="titles__card-img">
+                                    <img class="card-img" src="./assets/img/p1.jpg" alt="">
+                                </div>
+                                <h5 class="card__info">Lorem Ipsum</h5>
+                                <p class="card__info">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            </div>
+                            <div class="content__titles-card col l-4 m-4 c-12">
+                                <div class="titles__card-img">
+                                    <img class="card-img" src="./assets/img/p2.jpg" alt="">
+                                </div>
+                                <h5 class="card__info">Lorem Ipsum</h5>
+                                <p class="card__info">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            </div>
+                            <div class="content__titles-card col l-4 m-4 c-12">
+                                <div class="titles__card-img">
+                                    <img class="card-img" src="./assets/img/p3.jpg" alt="">
+                                </div>
+                                <h5 class="card__info">Lorem Ipsum</h5>
+                                <p class="card__info">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            </div>            
+                            <div class="content__titles-card col l-4 m-4 c-12">
+                                <div class="titles__card-img">
+                                    <img class="card-img" src="./assets/img/mountains.jpg" alt="">
+                                </div>
+                                <h5 class="card__info">Lorem Ipsum</h5>
+                                <p class="card__info">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            </div>
+                            <div class="content__titles-card col l-4 m-4 c-12">
+                                <div class="titles__card-img">
+                                    <img class="card-img" src="./assets/img/lights.jpg" alt="">
+                                </div>
+                                <h5 class="card__info">Lorem Ipsum</h5>
+                                <p class="card__info">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            </div>
+                            <div class="content__titles-card col l-4 m-4 c-12">
+                                <div class="titles__card-img">
+                                    <img class="card-img" src="./assets/img/nature.jpg" alt="">
+                                </div>
+                                <h5 class="card__info">Lorem Ipsum</h5>
+                                <p class="card__info">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                            </div>
+                                   
+                        </div>
+                    </div>
+    
+                    <!-- control -->
+                    <div class="content__control">
+                        <nav class="content__control-num"><i class="fa-solid fa-angles-left"></i></nav>
+                        <nav class="content__control-num content__control-num-actived">1</nav>
+                        <nav class="content__control-num">2</nav>
+                        <nav class="content__control-num">3</nav>
+                        <nav class="content__control-num">4</nav>
+                        <nav class="content__control-num"><i class="fa-solid fa-angles-right"></i></nav>
+                    </div>
+    
+                    <!-- image pretty -->
+                    <div class="grid">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <span class="my__img">
+                                    <img class="my__img-deep" src="./assets/img/avatar_g.jpg" alt="">
+                                </span>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <span class="my__img">
+                                    <img class="my__img-deep" src="./assets/img/me2.jpg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--  -->
+                    <span class="content__aboutme">
+                        <h4>
+                            About Me
+                        </h4>
+                        <p>
+                            Just me, myself and I, exploring the universe of unknownment. 
+                            I have a heart of love and an interest of lorem ipsum and mauris neque quam blog.
+                            I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. 
+                            Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+                            ultricies congue gravida diam non fringilla.
+                        </p>
+                    </span>
+    
+                    <!-- percent -->
+                    <div class="grid">
+                        <div class="row">
+                            <div class="percent col l-12 m-12 c-12">
+                                <h2>Technical Skills</h2>
+                                <p>Photography</p>
+                                <div class="content__percent" >
+                                    <span class="content__percent-bar" style="--percent: 95%">
+                                        95%
+                                    </span>
+                                </div>
+                                <p>Web Design</p>
+                                <div class="content__percent" >
+                                    <span class="content__percent-bar" style="--percent: 85%">
+                                        85%
+                                    </span>
+                                </div>
+                                <p>Photoshop</p>
+                                <div class="content__percent" >
+                                    <span class="content__percent-bar" style="--percent: 80%">
+                                        80%
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="download">
+                        <i class="fa-solid fa-download"></i>
+                        Download Resume
+                    </button>
+    
+                    <!-- table price -->
+                    <p class="content__question">How much I charge</p>
+                    <div class="prices grid">
+                        <div class="row">
+                            <div class="col l-4 m-4 c-12">
+                                <table >
+                                    <tr>
+                                        <th class="table__actived">Basic</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Web design</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Photography</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mail Support</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__td-price">$10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__td-date">per month</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <button class="content__signup">Sign Up</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <table >
+                                    <tr>
+                                        <th>Pro</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Web design</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Photography</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mail Support</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__td-price">$10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__td-date">per month</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <button class="content__signup">Sign Up</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <table >
+                                    <tr>
+                                        <th>Premium</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Web design</td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td>Photography</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1GB Storage</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mail Support</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__td-price">$10</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table__td-date">per month</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <button class="content__signup">Sign Up</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- contact -->
+    
+                <div class="contact">
+                    <p class="contact-p">Contact Me</p>
+                    <div class="contact__option grid">
+                        <div class="row no-gutters">
+                            <nav class="contact-methos col l-4 m-4 c-12">
+                                <i class="contact-methos-icon fa-solid fa-envelope"></i>
+                                email@email.com
+                            </nav>
+                            <nav class="contact-methos contact-methos-location col l-4 m-4 c-12">
+                                <i class="contact-methos-icon fa-solid fa-location-dot"></i>
+                                Chicago, US
+                            </nav>
+                            <nav class="contact-methos col l-4 m-4 c-12">
+                                <i class="contact-methos-icon fa-solid fa-phone"></i>
+                                060597
+                            </nav>
+                        </div>
+                    </div>
+                    <form action="" class="grid contact__form">
+                        <label>Name</label>
+                        <input class="contact__form-input" type="text" name="name">
+                        <span class="warning"></span>
+                        <label>Email</label>
+                        <input class="contact__form-input" type="text" name="email">
+                        <span class="warning"></span>
+                        <label>Message</label>
+                        <input class="contact__form-input" type="text" name="message">
+                        <span class="warning"></span>
+                        <button class="contact__btn-send">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                    </form>
+                    
+                </div>
+
+                <!-- footer -->
+                <div class="footer">
+                    <div class="grid">  
+                        <div class="row">
+                            <div class="col l-4 m-4 c-12">
+                                <h3>FOOTER</h3>
+                                <p class="footer__p">
+                                    Praesent tincidunt sed tellus ut rutrum.
+                                    Sed vitae justo condimentum, porta lectus vitae,
+                                    ultricies congue gravida diam non fringilla.
+                                </p>
+                                <p class="footer__p">Powered by <a class="footer__a" href="">w3.css</a></p>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <h3>BLOG POSTS</h3>
+                                <div class="footer__post footer__post-boder">
+                                    <img class="footer__post-img" src="./assets/img/workshop.jpg" alt="">
+                                    <div class="footer__post-propertive">
+                                        <span class="footer__post-propertive-main">Lorem</span>
+                                        <span class="footer__post-propertive-sub">Sed mattic nunc</span>
+                                    </div>
+                                </div>
+                                <div class="footer__post">
+                                    <img class="footer__post-img" src="./assets/img/gondol.jpg" alt="">
+                                    <div class="footer__post-propertive">
+                                        <span class="footer__post-propertive-main">Ipsum</span>
+                                        <span class="footer__post-propertive-sub">Praes tinic sed</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <h3>POPULAR TAGS</h3>
+                                <span class="footer__tag footer__tag-actived">
+                                    Travel
+                                </span>
+                                <span class="footer__tag">
+                                    New York
+                                </span>
+                                <span class="footer__tag">
+                                    London
+                                </span>
+                                <span class="footer__tag">
+                                    IKEA
+                                </span>
+                                <span class="footer__tag">
+                                    NORWAY
+                                </span>
+                                <span class="footer__tag">
+                                    DIY
+                                </span>
+                                <span class="footer__tag">
+                                    Ideas
+                                </span>
+                                <span class="footer__tag">
+                                    Baby
+                                </span>
+                                <span class="footer__tag">
+                                    Family
+                                </span>
+                                <span class="footer__tag">
+                                    News
+                                </span>
+                                <span class="footer__tag">
+                                    Clothing
+                                </span>
+                                <span class="footer__tag">
+                                    Shopping
+                                </span>
+                                <span class="footer__tag">
+                                    Sports
+                                </span>
+                                <span class="footer__tag">
+                                    Game
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="end">
+                    <span class="ending">
+                        Powered by <a href="">w3.css</a>
+                    </span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html> 
